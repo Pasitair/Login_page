@@ -6,18 +6,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Главная</title>
         <link rel="stylesheet" href="main_page.css">
-
+        <link rel="stylesheet" href="main_page_adaptive.css">
+<script src="main_page.js"></script>
     </head>
     <body>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="../main_page/main.html">Главная</a>             
+              <a href="#">Контакты</a>
+              <a href="/login/login.html"><button>Вход</button></A>
+
+            </div>
+          </div>
+
         <header>
-            <nav>
+            <nav class="nav-bar">
                 <ul class="nav-links">
                     <li><a href="../main_page/main.html">Главная</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
             <a href="/login/login.html"><button>Вход</button></A>
+
         </header>
-      <img class="rofl" src="../images/rofl.jpg" alt="">
     </body>
 </html>
